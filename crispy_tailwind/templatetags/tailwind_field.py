@@ -79,8 +79,8 @@ def pairwise(iterable):
 class CrispyTailwindFieldNode(template.Node):
 
     base_input = (
-        "bg-white focus:outline-none border border-gray-300 rounded-lg py-2 px-4 block w-full "
-        "appearance-none leading-normal text-gray-700"
+        "bg-secondary text-base-100 focus:outline-none border border-gray-300 rounded-lg py-2 px-4 block w-full "
+        "appearance-none leading-normal"
     )
 
     default_styles = {
